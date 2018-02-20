@@ -1,4 +1,13 @@
-export default { '123456': '0.00030000',
+// This files is taken from the binance api call
+// binance.prices((error, ticker) => {
+//   console.log("prices()", ticker);
+//   console.log("ETHBTC: ", ticker.ETHBTC);
+//   console.log("BNBETH: ", ticker.BNBETH);
+//   console.log("BNBBTC: ", ticker.BNBBTC);
+// });
+
+export default {
+  '123456': '0.00030000',
   ETHBTC: '0.08425900',
   LTCBTC: '0.02009700',
   BNBBTC: '0.00099240',
@@ -265,5 +274,6 @@ export default { '123456': '0.00030000',
   AEBNB: '0.23990000',
   RPXBTC: '0.00002014',
   RPXETH: '0.00023855',
-  RPXBNB: '0.02022000' };
+  RPXBNB: '0.02022000'
+};
 
