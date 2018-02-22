@@ -1,4 +1,4 @@
-import Pairs from './resources/pairs';
+import Pairs from '../resources/pairs';
 
 // This files generates list of all currncies
 
